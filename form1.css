@@ -39,3 +39,15 @@
     display: flex;
     justify-content: center;
 }
+
+@media (min-width: 576px) {
+    .content {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      max-width: 720px;
+    }
+  }
